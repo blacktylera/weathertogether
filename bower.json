@@ -1,0 +1,15 @@
+{
+  "name": "weathertogether",
+  "version": "0.0.1",
+  "authors": [
+    "Tyler Black <blacktylera@gmail.com>"
+  ],
+  "description": "weathertogether. A groundbreaking weather app.",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "foundation": "~5.5.0",
+    "lodash": "~3.0.0"
+  }
+}
