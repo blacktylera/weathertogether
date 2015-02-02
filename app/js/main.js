@@ -60,7 +60,6 @@ function cityName(){
   return docFragment;
 }
 
-
 //Day1 weather values
 
 function createList1(){
@@ -247,7 +246,6 @@ function createList5(){
 }
 
 //pull request
-
 function getJSON(url, cb) {
   var request = new XMLHttpRequest();
   request.open('GET', url);
@@ -259,6 +257,5 @@ function getJSON(url, cb) {
   };
   request.send();
 }
-
 
 
