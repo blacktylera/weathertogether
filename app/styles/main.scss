@@ -1,6 +1,96 @@
 @import "variables";
 @import "headings";
 
-li {
+h1 {
+  font-size: 64px;
+  font-weight: 100;
   text-align: center;
+  color: white;
+  background-color:#40B9ED;
+  margin: 0;
+  padding-top: 60px;
 }
+
+h4 {
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: white;
+  background-color:#40B9ED;
+  margin: 0;
+  margin-right: 0;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+h2 {
+  color: #005A75;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 100;
+  letter-spacing: 1.3px;
+}
+
+
+
+.row {
+  background-color: #B3E6FC;
+  padding: 8px 10% 0 10%;
+  max-width: 100%;
+}
+
+button.small.submit {
+  height: 2.3125rem;
+  width: 120px;
+  padding-bottom: 20px;
+  padding-top: 12px;
+}
+
+ul.small-block-grid-5 {
+  margin: 40px auto 10px auto;
+  text-align: center;
+  max-width: 1200px;
+}
+
+li {
+   text-align: center;
+   border: 2px solid #B3E6FC;
+   margin: 5px;
+   max-width: 230px;
+
+}
+
+.weekday{
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #005A75;
+  letter-spacing: 1.3px;
+}
+
+.high {
+  color: red;
+  font-weight: 200;
+}
+
+.low {
+  color: #40B9ED;
+  font-weight: 200;
+}
+
+.conditions {
+  color: #8B8C8C;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 1200px){
+  li {
+    min-width: 95%;
+  }
+  button.small.submit {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+

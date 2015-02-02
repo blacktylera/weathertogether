@@ -4,10 +4,25 @@ html(lang="en")
     title Weather Together
     link(rel="stylesheet" href="vendor/foundation/css/foundation.css")
     link(rel="stylesheet" href="css/main.css")
-    script(src="js/vendor/modernizr.js")
-  body
-    ul.small-block-grid-5
 
+  body
+    h1 Your Local Forecast
+    h4 FIVE DAY
+    div.row
+      div.large-12.columns
+        div.row.collapse
+          div.large-9.columns
+            input.zipcode(type="text" placeholder="Enter your zipcode")
+          div.large-3.columns
+            button.small.submit Go
+
+    h2
+    ul.small-block-grid-5
+      li.containerDay1
+      li.containerDay2
+      li.containerDay3
+      li.containerDay4
+      li.containerDay5
 
     script(src="js/main.js")
     script.
